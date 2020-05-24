@@ -1,17 +1,17 @@
 <article class="card-small">
   <div class="card-small-title">
-    Page views
+    {{ cardSmall.title }}
   </div>
   <div class="card-small-social">
-    <img src="./images/icon-facebook.svg" alt="" />
+    <img src="{{ cardSmall.socialIcon }}" alt="" />
   </div>
-  <div class="card-small-number">
-    87
-  </div>
+  <div class="card-small-number">{{ cardSmall.number }}</div>
   <div class="card-small-percentage">
     <div class="card-small-percentage-ctn">
-      <img src="./images/icon-up.svg" alt="" />
-      <span class="percentage"> 2 %</span>
+      <img src="{{ cardSmall.percentageIcon }}" alt="" />
+      <span class="percentage {{ cardSmall.class }}">
+        {{ cardSmall.percentage }} %</span
+      >
     </div>
   </div>
 </article>

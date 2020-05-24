@@ -1,16 +1,16 @@
-<article class="card facebook">
+<article class="card {{ card.social }}">
   <div class="card-header">
-    <img src="./images/icon-facebook.svg" alt="social-logo" />
-    @AndreFontaine
+    <img src="{{ card.socialIcon }}" alt="social-logo" />
+    {{ card.userName }}
   </div>
   <div class="card-number">
-    1483
+    {{ card.number }}
   </div>
   <div class="card-title">
     Followers
   </div>
   <div class="card-today">
-    <img src="./images/icon-up.svg" alt="up-icon" />
-    12 Today
+    <img src="{{ card.todayIcon }}" alt="up-icon" />
+    {{ card.today }} Today
   </div>
 </article>
