@@ -52,3 +52,7 @@
 .card-small-percentage-ctn img {
   margin-right: 5px;
 }
+
+.percentage.danger {
+  color: var(--bright-red);
+}
