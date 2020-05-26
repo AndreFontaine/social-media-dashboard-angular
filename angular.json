@@ -109,7 +109,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://andrefontaine.github.io/social-media-dashboard-angular",
+            "baseHref": "https://andrefontaine.github.io/social-media-dashboard-angular/",
             "name": "Social Media Dashboard",
             "email": "andres.gonzalez.ud@gmail.com"
           }
