@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header.component';
 import { CardListComponent } from './components/card-list.component';
 import { CardSmallListComponent } from './components/card-small-list.component';
 import { CardSmallComponent } from './components/card-small.component';
+import { SwitchComponent } from './components/switch.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CardSmallComponent } from './components/card-small.component';
     CardSmallListComponent,
     CardSmallComponent,
     HeaderComponent,
+    SwitchComponent,
   ],
   imports: [BrowserModule],
   providers: [],
