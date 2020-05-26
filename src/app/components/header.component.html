@@ -8,6 +8,9 @@
         Total Followers: 23,004
       </div>
     </div>
-    <app-switch-mode></app-switch-mode>
+    <app-switch-mode
+      (schemeChanged)="darkModeActive($event)"
+      [darkModeActive]="darkMode"
+    ></app-switch-mode>
   </div>
 </header>

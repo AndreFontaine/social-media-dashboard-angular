@@ -1,5 +1,12 @@
-<div class="dark-mode">
+<div class="switch-mode">
   <h3>Dark mode</h3>
-  <input class="dark-mode-checkbox" type="checkbox" id="dark-switch" />
-  <label class="dark-mode-toggle" for="dark-switch"></label>
+  <input
+    #switch
+    id="switch"
+    type="checkbox"
+    [checked]="darkModeActive"
+    (change)="changeDarkMode(switch.checked)"
+    class="switch-mode-checkbox"
+  />
+  <label class="switch-mode-toggle" for="switch"></label>
 </div>
